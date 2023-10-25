@@ -6,7 +6,6 @@ This repository outlines a data processing and analytics pipeline leveraging AWS
 
 The data used in this pipeline is sourced from Kaggle, specifically the [Telco Customer Churn (IBM) Dataset](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset?resource=download).
 
-...
 
 ## Diagram Overview
 
