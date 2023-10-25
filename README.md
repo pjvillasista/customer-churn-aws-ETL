@@ -38,7 +38,7 @@ The data used in this pipeline is sourced from Kaggle, specifically the [Telco C
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/pjvillasista/customer-churn-aws-ETL/
    ```
 
 2. Configure your AWS credentials:
