@@ -64,16 +64,3 @@ The data used in this pipeline is sourced from Kaggle, specifically the [Telco C
 ## Contributing
 
 If you'd like to contribute to this project, please fork the repository, create your feature branch, commit your changes, and open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See `LICENSE` for more details.
-
-## Acknowledgements
-
-- Thanks to the open-source community for various tools and libraries.
-- Special thanks to AWS for their cloud services.
-
----
-
-Make sure to update `<repository-url>` with the actual URL of your repository and `path_to_your_image.png` with the path to the diagram image if you've added it to the repository.
