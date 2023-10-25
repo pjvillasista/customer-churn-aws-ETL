@@ -1,11 +1,20 @@
 # Data Processing & Analytics Pipeline with AWS and Airflow
 
-This repository outlines a data processing and analytics pipeline leveraging AWS services and Apache Airflow. The main objective is to automate the process of fetching data, storing it in AWS, processing it with Glue and Athena, and saving to Redshift.
+This repository outlines a data processing and analytics pipeline leveraging AWS services and Apache Airflow. The main objective is to automate the process of fetching data, storing it in AWS, processing with Glue and Athena, and preparing it for visualization.
 
 ## Dataset Source
 
 The data used in this pipeline is sourced from Kaggle, specifically the [Telco Customer Churn (IBM) Dataset](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset?resource=download).
 
+## Use Cases
+
+### Data Querying with Athena
+
+Once the data has been processed and stored, analysts or other data professionals can directly query the dataset using Amazon Athena. This provides a serverless interactive query service that simplifies the analysis of data in Amazon S3 using standard SQL. Analysts can use Athena to generate insights, build reports, or create datasets for further use.
+
+### Data Visualization
+
+While this pipeline does not directly include a dashboard, it prepares the data in such a way that it can easily be connected to visualization tools like Tableau, PowerBI, or other reporting tools. Users can connect to the data stored in Amazon Redshift or directly from Athena to build visual reports and dashboards. This flexibility allows organizations to pick a visualization tool that best fits their needs and expertise.
 
 ## Diagram Overview
 
