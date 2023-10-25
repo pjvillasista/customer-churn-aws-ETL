@@ -33,7 +33,6 @@ The data used in this pipeline is sourced from Kaggle, specifically the [Telco C
 
 - AWS account with permissions to S3, Glue, Athena, and Redshift.
 - Apache Airflow setup.
-- PowerBI account for visualization.
 
 ### Installation
 
