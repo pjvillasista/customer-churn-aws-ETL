@@ -18,7 +18,7 @@ While this pipeline does not directly include a dashboard, it prepares the data 
 
 ## Diagram Overview
 
-![Pipeline Diagram](aws_churn_pipeline.pptx.jpg)
+![Pipeline Diagram](aws_churn_pipeline.pptx.svg)
 
 1. **Data Download**: Source data from the Internet.
 2. **Amazon S3**: Store data in an S3 bucket.
