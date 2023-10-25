@@ -1,6 +1,12 @@
 # Data Processing & Analytics Pipeline with AWS and Airflow
 
-This repository outlines a data processing and analytics pipeline leveraging AWS services and Apache Airflow. The main objective is to automate the process of fetching data, storing it in AWS, processing with Glue and Athena, saving to Redshift, and visualizing it using PowerBI.
+This repository outlines a data processing and analytics pipeline leveraging AWS services and Apache Airflow. The main objective is to automate the process of fetching data, storing it in AWS, processing it with Glue and Athena, and saving to Redshift.
+
+## Dataset Source
+
+The data used in this pipeline is sourced from Kaggle, specifically the [Telco Customer Churn (IBM) Dataset](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset?resource=download).
+
+...
 
 ## Diagram Overview
 
