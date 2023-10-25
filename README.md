@@ -91,7 +91,3 @@ By following these steps, you'll be ready to use the provided DAG for your ETL t
 2. Trigger the DAG from the Airflow UI.
 
 3. Once data is processed and saved in Redshift, use PowerBI to connect to your Redshift cluster for visualization.
-
-## Contributing
-
-If you'd like to contribute to this project, please fork the repository, create your feature branch, commit your changes, and open a pull request.
