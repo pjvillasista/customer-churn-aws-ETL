@@ -40,8 +40,16 @@ While this pipeline does not directly include a dashboard, it prepares the data 
 
 ### Prerequisites
 
-- AWS account with permissions to S3, Glue, Athena, and Redshift.
-- Apache Airflow setup.
+Before using this solution, ensure the following:
+
+1. **AWS Glue Crawler Setup**: You should have already set up an AWS Glue Crawler for your dataset. The Glue Crawler is responsible for scanning your data source and populating the AWS Glue Data Catalog with table definitions. [Refer to the official AWS documentation](https://docs.aws.amazon.com/glue/latest/dg/add-crawler.html) to understand how to set it up if you haven't already.
+
+2. **Airflow and Amazon Connection**: Ensure that you've established a connection between Airflow and your AWS account. This connection is critical for triggering and monitoring Glue jobs using the Airflow DAG defined in this solution. To establish this connection, you'll need to:
+    - Navigate to the Airflow web interface.
+    - Click on the "Admin" tab and select "Connections".
+    - Add a new connection with the necessary AWS credentials (`aws_access_key_id` and `aws_secret_access_key`) and specify the connection type as 'Amazon Web Services'. Name this connection as `aws_s3_conn` or modify the DAG to reflect your connection's name.
+
+By ensuring these prerequisites, you'll be in a good position to utilize the provided DAG for orchestrating your ETL tasks.
 
 ### Installation
 
