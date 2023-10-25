@@ -11,7 +11,6 @@ This repository outlines a data processing and analytics pipeline leveraging AWS
 3. **AWS Glue Crawler**: Extract schema and create metadata tables.
 4. **Amazon Athena**: Query data directly from S3.
 5. **Amazon Redshift**: Store processed data for complex analytics.
-6. **PowerBI**: Visualize the analyzed data.
 
 ## Code Structure
 
